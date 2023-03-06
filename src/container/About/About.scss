@@ -3,6 +3,7 @@
     width: 100%;
     flex-direction: column;
     padding-top: 2rem;
+
     @media screen and (max-width: 450px) {
         padding: 0;
         width: 100%;
@@ -26,19 +27,20 @@
         font-size: 22px;
         width: 640px;
         line-height: 1.4;
+
         @media screen and (max-width: 450px) {
             width: 100%;
         }
+
         @media screen and (max-width: 1200px) {
             width: 100%;
             padding: 1rem;
-            p{
+
+            p {
                 font-size: 1rem;
             }
         }
     }
-
-
 }
 
 .app__about-counters {

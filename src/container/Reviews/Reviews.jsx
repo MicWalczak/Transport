@@ -5,7 +5,6 @@ import { Keyboard, Pagination, Navigation } from "swiper";
 import { images } from "../../constants";
 
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Reviews = () => {
