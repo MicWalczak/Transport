@@ -1,0 +1,39 @@
+.app__footer-footer {
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 5%;
+        height: 5%;
+    }
+    @media screen and (max-width: 450px) {
+        img {
+            width: 25%;
+            height: 25%;
+        }
+    }
+    @media screen and (max-width: 1200px) {
+        img {
+            width: 25%;
+            height: 25%;
+        }
+    }
+
+    .app__footer-ikons {
+        svg {
+            width: 32px;
+            height: 32px;
+            color: var(--gray-color);
+            padding: 0.25rem;
+        }
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    
+}
